@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- App Name - Talking Fingers -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Talking Fingers"
+        android:textColor="#040E4B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="366dp"
+        android:layout_height="224dp"
+        android:layout_below="@id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo2" />
+
+    <!-- Application Description -->
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_image"
+        android:layout_marginTop="16dp"
+        android:text="Talking Fingers helps you translate and learn Indian Sign language easily with interactive features and user-friendly tools."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Bottom Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <!-- Learn More Button -->
+        <Button
+            android:id="@+id/learn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Start Translating Button -->
+        <Button
+            android:id="@+id/start_translate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Translating"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:iconTint="@color/menu_item_color"
+        android:background="@drawable/menu_item_background"/>
+
+    <item
+        android:id="@+id/nav_translate"
+        android:icon="@drawable/ic_translate"
+        android:title="Text/Speech"
+        android:iconTint="@color/menu_item_color"
+        android:background="@drawable/menu_item_background"/>
+
+    <!--<item
+        android:id="@+id/nav_dictionary"
+        android:icon="@drawable/ic_dictionary"
+        android:title="Sign"
+        android:iconTint="@color/menu_item_color"
+        android:background="@drawable/menu_item_background"/>-->
+
+    <item
+        android:id="@+id/nav_dictionary"
+        android:icon="@drawable/ic_dictionary"
+        android:title="Dictionary"
+        android:iconTint="@color/menu_item_color"
+        android:background="@drawable/menu_item_background"/>
+</menu>

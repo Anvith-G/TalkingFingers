@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FingerTalks" parent="Theme.Material3.DayNight.NoActionBar">
+
+                <!-- Primary branding color. -->
+                <item name="colorPrimary">@color/primary</item>
+                <item name="colorPrimaryVariant">@color/primary_variant</item>
+                <item name="colorOnPrimary">@color/on_primary</item>
+                <!-- Secondary branding color. -->
+                <item name="colorSecondary">@color/secondary</item>
+                <item name="colorSecondaryVariant">@color/secondary</item>
+                <item name="colorOnSecondary">@color/on_secondary</item>
+                <!-- Background color. -->
+                <item name="android:colorBackground">@color/background</item>
+                <item name="android:windowBackground">@color/background</item>
+                <item name="colorOnBackground">@color/on_background</item>
+                <!-- Surface color. -->
+                <item name="colorSurface">@color/surface</item>
+                <item name="colorOnSurface">@color/on_surface</item>
+                <!-- Error color. -->
+                <item name="colorError">#B00020</item>
+                <item name="colorOnError">#FFFFFF</item>
+
+
+            <!-- Add any other theme settings if necessary. -->
+
+
+    </style>
+
+    <style name="Theme.FingerTalks" parent="Base.Theme.FingerTalks" />
+
+</resources>
