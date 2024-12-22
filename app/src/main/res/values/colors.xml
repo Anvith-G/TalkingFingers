@@ -11,6 +11,7 @@
     <color name="on_primary">#FFFFFF</color>
     <color name="on_secondary">#000000</color>
     <color name="on_background">#000000</color>
+    <color name="nav_background">#0A1E26</color>
     <color name="on_surface">#000000</color>
     <color name="hint">#808080</color>
     <color name="menu_item_color">#436AF8</color>
